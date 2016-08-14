@@ -307,9 +307,9 @@ public class ObsValidatorTest extends BaseContextSensitiveTest {
 		
 		// Generate 1800+ characters length text.
 		String valueText = "";
-		for (int i = 0; i < 20; i++) {
+		for (int i = 0; i < 200; i++) {
 			valueText = valueText
-			        + "This text should not exceed 1000 characters. Below code will generate a text more than 1000";
+			        + "This text should not exceed 15000 characters. Below code will generate a text more than 15000";
 		}
 		
 		obs.setValueText(valueText);
